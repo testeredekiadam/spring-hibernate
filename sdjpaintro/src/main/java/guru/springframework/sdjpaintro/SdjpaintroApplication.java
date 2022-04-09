@@ -1,13 +1,13 @@
-package com.firat.springframework.sdjpaintro;
+package guru.springframework.sdjpaintro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SdjpaIntroApplication {
+public class SdjpaintroApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SdjpaIntroApplication.class, args);
+		SpringApplication.run(SdjpaintroApplication.class, args);
 	}
 
 }
