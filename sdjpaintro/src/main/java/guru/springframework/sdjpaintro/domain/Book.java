@@ -16,15 +16,17 @@ public class Book {
     private String name;
     private String isbn;
     private String publisher;
+    private int number;
 
     public Book(){
 
     }
 
-    public Book(String name, String isbn, String publisher) {
+    public Book(String name, String isbn, String publisher, int number) {
         this.name = name;
         this.isbn = isbn;
         this.publisher = publisher;
+        this.number = number;
     }
 
 
@@ -74,4 +76,14 @@ public class Book {
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }
+
+	public int getNumber() {
+		return number;
+	}
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+    
+    
 }
